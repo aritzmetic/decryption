@@ -23,26 +23,30 @@ while True:
             # check if the character matches any of the substitution characters, Change '*' to 'a'
                 if character == '*':
                     user_decryptedtxt += 'a'
-            # Change '&' to 'e'
+                # Change '&' to 'e'
                 elif character == '&':
                     user_decryptedtxt += 'e'
-            # Change '#' to 'i'
+                # Change '#' to 'i'
                 elif character == '#':
                     user_decryptedtxt += 'i'
-            # Change '+' to 'o'
+                # Change '+' to 'o'
                 elif character == '+':
                     user_decryptedtxt += 'o'
-            # Change '!' to 'u'
+                # Change '!' to 'u'
                 elif character == '!':
                     user_decryptedtxt += 'u'
-            # Put the character in place if it isn't a replacement character
+                # Put the character in place if it isn't a replacement character
                 else:
                     user_decryptedtxt += character
             # return the decrypted text
-                return user_decryptedtxt
+            return user_decryptedtxt
 
-# make a new instance of the Decrypter class using the encrypted text
-# use the decrypter() method and save the decrypted text
-# print out the decrypted text
+    # make a new instance of the Decrypter class using the encrypted text
+    decrypt = Decryption(user_encryptedtxt)
+    # use the decrypter() method and save the decrypted text
+    inputted_text = decrypt.decrypter()
+    # print out the decrypted text
+    print("Yown! The process has been completed!", inputted_text,"is your plain text!")
+    
 # Ask the user if they want to repeat the process
 # If the user doesn't want to repeat the process, exit the loop
