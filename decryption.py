@@ -47,6 +47,10 @@ while True:
     inputted_text = decrypt.decrypter()
     # print out the decrypted text
     print("Yown! The process has been completed!", inputted_text,"is your plain text!")
-    
-# Ask the user if they want to repeat the process
-# If the user doesn't want to repeat the process, exit the loop
+    # Ask the user if they want to repeat the process
+    question = input("Would you like to repeat the process? (yes or no): ")
+    # If the user doesn't want to repeat the process, exit the loop
+    if question.lower() == "no":
+        closing = "Thank you for using AritzMetic's Decrypter. Have a nice day!"
+        print(closing)
+        quit()
