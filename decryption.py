@@ -9,8 +9,14 @@ while True:
 
     # ask the user to input the encrypted text
     user_encryptedtxt = input("What is the text that you want to decrypt?: ")
-# Make a decryption class that we will be using for the program
-# we need to initialize the instance variable
+
+    # Make a decryption class that we will be using for the program
+    class Decryption:
+        def __init__(self, user_encryptedtxt):
+            # we need to initialize the instance variable
+            self.encrypted_text = user_encryptedtxt
+
+            
 # create a method to decrypt the encrypted text
 # check if the character matches any of the substitution characters, Change '*' to 'a'
 # Change '&' to 'e'
