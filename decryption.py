@@ -16,15 +16,31 @@ while True:
             # we need to initialize the instance variable
             self.encrypted_text = user_encryptedtxt
 
-            
-# create a method to decrypt the encrypted text
-# check if the character matches any of the substitution characters, Change '*' to 'a'
-# Change '&' to 'e'
-# Change '#' to 'i'
-# Change '+' to 'o'
-# Change '!' to 'u'
-# Put the character in place if it isn't a replacement character
-# return the decrypted text
+        # create a method to decrypt the encrypted text
+        def decrypter(self):
+            user_decryptedtxt = ""
+            for character in user_encryptedtxt:
+            # check if the character matches any of the substitution characters, Change '*' to 'a'
+                if character == '*':
+                    user_decryptedtxt += 'a'
+            # Change '&' to 'e'
+                elif character == '&':
+                    user_decryptedtxt += 'e'
+            # Change '#' to 'i'
+                elif character == '#':
+                    user_decryptedtxt += 'i'
+            # Change '+' to 'o'
+                elif character == '+':
+                    user_decryptedtxt += 'o'
+            # Change '!' to 'u'
+                elif character == '!':
+                    user_decryptedtxt += 'u'
+            # Put the character in place if it isn't a replacement character
+                else:
+                    user_decryptedtxt += character
+            # return the decrypted text
+                return user_decryptedtxt
+
 # make a new instance of the Decrypter class using the encrypted text
 # use the decrypter() method and save the decrypted text
 # print out the decrypted text
