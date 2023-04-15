@@ -1,10 +1,14 @@
 # Delera, Aritz B.
 # decryptor
 
-# Create an introduction
 # Use while loop for a condition-controlled loop
-# Ask the name of the user to create a greeting
-# ask the user to input the encrypted text
+while True:
+    # Ask the name of the user to create a greeting
+    name = input("Hi Smart Pipol! what is your name?")
+    print("Hi", name, "! AritzMetic is here to help you in decrypting your code!")
+
+    # ask the user to input the encrypted text
+    user_encryptedtxt = input("What is the text that you want to decrypt?: ")
 # Make a decryption class that we will be using for the program
 # we need to initialize the instance variable
 # create a method to decrypt the encrypted text
