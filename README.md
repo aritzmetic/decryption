@@ -6,6 +6,9 @@ https://user-images.githubusercontent.com/112628197/232286447-797fdb5b-1048-47f4
 ## **INTRODUCTION**
 > _This is a Python program that is designed to decrypt encrypted text that has been encoded using a substitution cipher. The method involves replacing the encrypted characters with their corresponding plaintext characters._
 
+### **PROGRAMMING LANGUAGE USED**
+> Python
+
 ## **Attributes**
 - > a **salutation** for the user
 - > The program **contains a loop** that enables the user to decrypt numerous encrypted texts.
