@@ -14,6 +14,9 @@ https://user-images.githubusercontent.com/112628197/232286447-797fdb5b-1048-47f4
 - > The user is **presented with a choice** to either repeat the current process or terminate the program.
 - > The practice of enhancing the appearance of messages through the use of **ASCII art and colored text.**
 
+## **How to run this program?**
+![Screenshot 2023-04-16 171905](https://user-images.githubusercontent.com/112628197/232289178-7993313f-36a0-414a-8846-45b7129b7bdd.png)
+
 ## **How to run this program using IDE?**
 > 1. Run the program in a Python IDE or command line.
 > 2. The program greets the user and requests their name.
@@ -22,5 +25,14 @@ https://user-images.githubusercontent.com/112628197/232286447-797fdb5b-1048-47f4
 > Console will display decrypted text.
 > 5. User will be requested to repeat process. if Yes, the program returns to step 3. if No, the program closes.
 
-## **How to run this program?**
-![Screenshot 2023-04-16 171905](https://user-images.githubusercontent.com/112628197/232289178-7993313f-36a0-414a-8846-45b7129b7bdd.png)
+https://user-images.githubusercontent.com/112628197/232290141-0bfb6494-d139-4938-a9f6-c1660f4e43fe.mp4
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+**_You are free to get in touch with me, @aritzmetic,  or to report problems directly on this repository if you discover problems with the project. Check out our [contribution guidelines](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/setting-guidelines-for-repository-contributors) if you are interested in doing more to help the development of the project. Thank you!_** 
+
+
+
+
+
+
